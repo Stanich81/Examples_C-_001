@@ -1,10 +1,11 @@
-﻿Console.WriteLine("Введите любое число: ");
+﻿Console.WriteLine("Введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-int b = a*(-1);
+Console.WriteLine("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
 int min;
 int max;
 
-Console.WriteLine($"a = {a}, b = {b}");
+//Console.WriteLine($"a = {a}, b = {b}");
 
 if (a>b){
     max = a; min = b;
